@@ -11,12 +11,13 @@ Elle seront disposé à 3 mètres de distance les une des autres, formant un tri
 ![alt text](/Rapport/assets/images/position_camera.png "Figure 1 : Position des caméras dans la pièces")
 
 ## Reconnaissance
-### Psotionnement du téléphone
+### Positionnement du téléphone
 La première approche de la reconnaisance du smartphone dans le monde réel à été d'utiliser darknet, cependant darknet requiere l'utilisation de Cuda et de OpenCV. Hors l'installation de Cuda nous aura posé de nombreux problème bloquant l'utilisation de darknet pendant 3 semaines.
 N'ayant toujours pas réussiit à installer correctement Cuda, nous avons décidé d'abandonner l'utilisation de darknet et de nous concentrer sur la reconnaissance grâce à 
 ### Reconstruction du positonement en 3D
+**Partie a voir avec Mael**
 ## Serveur
-
+Nous avons mis en place un serveur UDP afin de recupéré les données des capteurs. L'utilisation d'un serveur UDP nous a parus la plus pertinente car les données doivent transitter rapidement.
 ## Capteur
 Afin de représenté correctement le téléphone dans l'environnement virtuel, il est nécessaire d'utilisé les capteurs dont dispose le téléphone.
 Pour permettre à notre application de se servire des capteurs nous avons créer une application mobile. 
